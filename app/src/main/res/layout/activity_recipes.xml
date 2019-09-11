@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFF">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="412dp"
+        android:layout_height="312dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <TextView
+        android:id="@+id/nazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"
+        android:text="Nazwa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <TextView
+        android:id="@+id/opis"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Opis"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porcje"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    <TextView
+        android:id="@+id/porcje"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porcje"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalorie"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    <TextView
+        android:id="@+id/kalorie"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalorie"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skladniki"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    <TextView
+        android:id="@+id/skladniki"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Składniki"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przygotowanie"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    <TextView
+        android:id="@+id/przygotowanie"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przygotowanie"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+</LinearLayout>
+
+</ScrollView>

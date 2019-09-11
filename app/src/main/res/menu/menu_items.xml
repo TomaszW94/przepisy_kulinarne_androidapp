@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sortkuch_pol"
+        android:alphabeticShortcut="p"
+        android:title="Kuchnia polska"
+        />
+    <item
+        android:id="@+id/sortkuch_ita"
+        android:alphabeticShortcut="w"
+        android:title="Kuchnia włoska"
+        />
+
+    <item
+        android:id="@+id/sortkuch_spain"
+        android:alphabeticShortcut="h"
+        android:title="Kuchnia hiszpańska"
+        />
+
+    <item
+        android:id="@+id/sortkuch_mex"
+        android:alphabeticShortcut="m"
+        android:title="Kuchnia meksykańska"
+        />
+
+    <item
+        android:id="@+id/sortkuch_desserts"
+        android:alphabeticShortcut="d"
+        android:title="Desery"
+        />
+
+    <item
+        android:id="@+id/sort_az"
+        android:alphabeticShortcut="a"
+        android:title="Sortuj A-Z"
+        />
+
+    <item
+        android:id="@+id/sort_za"
+        android:alphabeticShortcut="z"
+        android:title="Sortuj Z-A"
+        />
+
+    <item
+        android:id="@+id/sort_all"
+        android:alphabeticShortcut="l"
+        android:title="Pokaż wszystkie"
+        />
+
+
+
+
+
+</menu>

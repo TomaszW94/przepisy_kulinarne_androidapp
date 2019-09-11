@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Przepisy kulinarne</string>
+    <string name="activity_sec">Przepisy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
